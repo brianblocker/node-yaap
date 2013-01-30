@@ -9,9 +9,11 @@ a {
 }
 
 a.button {
+  /*background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background-position: left top;
   font-size: 2em;
   color: #fff;
-  background-color: #099;
+  background-color: #c00;
   display: inline-block;
   height: 2em;
   padding: 0 0.75em;
@@ -20,7 +22,7 @@ a.button {
   position: relative;
   margin: 1em;
   border-radius: 2em;
-  box-shadow: 0 0.1em 0.1em rgba( 0,0,0,0.25 ), inset 0 0.1em 0.1em rgba( 255,255,255,0.2 );
+  box-shadow: 0 0.1em 0.1em rgba( 0,0,0,0.3 ), inset 0 0.1em 0.1em rgba( 255,255,255,0.2 ), inset 0 -0.25em 0.4em rgba( 0,0,0,0.2 ), inset 0 0.25em 0.4em rgba( 255,255,255,0.2 );
   text-shadow: 0 0.1em 0.1em rgba( 0,0,0,0.25 );
   box-sizing: border-box;
 }
@@ -37,5 +39,5 @@ a.button:before {
   padding: 0.4em;
   z-index: -1;
   border-radius: 2.4em;
-  box-shadow: 0 0.1em 0.1em rgba( 255,255,255,0.2 ), inset 0 0.1em 0.1em rgba( 0,0,0,0.25 );
+  box-shadow: 0 0.1em 0.1em rgba( 255,255,255,0.2 ), inset 0 0.1em 0.1em rgba( 0,0,0,0.3 );
 }
